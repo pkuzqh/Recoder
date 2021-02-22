@@ -24,10 +24,7 @@ python3 testDefects4j.py bugid
 python3 repair.py bugid
 ```
 ## Two Examples of Edits
-<figure class="half">
-    <img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="100"/>
-    <img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="100"/>
-</figure>
+<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="425"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="425"/> 
 
 ## Online Demo
 A demo to show our model.
