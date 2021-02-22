@@ -19,7 +19,7 @@ python3 testDefects4j.py bugid
 ```
 ## Validate Patches
 ```python
-python3 repair.py train
+python3 repair.py bugid
 ```
 ## Online Demo
 A demo to show our model.
