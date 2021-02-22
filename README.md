@@ -24,7 +24,7 @@ python3 testDefects4j.py bugid
 python3 repair.py bugid
 ```
 ## Two Examples of Edits
-<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="425"/>                                                                       <img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="425"/> 
+<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="300"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="300"/> 
 
 ## Online Demo
 [A demo to show Recoder.](http://123.57.129.161:8081/)
