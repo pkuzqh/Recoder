@@ -24,8 +24,7 @@ python3 testDefects4j.py bugid
 python3 repair.py bugid
 ```
 ## Two Examples of Edits
-![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png)
-![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png)
+![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png)![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png)
 
 ## Online Demo
 A demo to show our model.
