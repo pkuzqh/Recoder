@@ -1,0 +1,300 @@
+53
+chart-1
+Chart11797avaj.reredneRmetIyrogetaCtcartsbAyrogetacrerednertrahceerfjgroecruosyggub
+-        if (dataset != null) {
++if((dataset == null)){
+
+chart-3
+Chart31058avaj.seireSemiTemitatadeerfjgroecruosyggub
+-        if (this.data.size() > 0) {
++copy.findBoundsByIteration();
+
+
+chart-8
+Chart8175avaj.keeWemitatadeerfjgroecruosyggub
+-        this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());
++this(time, zone, Locale.getDefault());;
+
+
+chart-9
+Chart9944avaj.seireSemiTemitatadeerfjgroecruosyggub
+-        if (endIndex < 0) {
++if(((endIndex < 0) || (endIndex < startIndex))){
+
+
+chart-11
+Chart11274avaj.seitilitUepahSlitutrahceerfjgroecruosyggub
+-        PathIterator iterator1 = p1.getPathIterator(null);
++PathIterator iterator1 = p2.getPathIterator(null);
+
+
+chart-20
+Chart2095avaj.rekraMeulaVtolptrahceerfjgroecruosyggub
+-        super(paint, stroke, paint, stroke, alpha);
++super(paint, stroke, outlinePaint, outlineStroke, alpha);
+
+
+chart-24
+Chart24126avaj.elacStniaPyarGrerednertrahceerfjgroecruosyggub
+-        int g = (int) ((value - this.lowerBound) / (this.upperBound 
+                - this.lowerBound) * 255.0);
++int g = (int)(((v - this.lowerBound) / (this.upperBound - this.lowerBound)) * 255.0);
+
+
+chart-26
+Chart261192avaj.sixAsixatrahceerfjgroecruosyggub
+-                EntityCollection entities = owner.getEntityCollection();
++if((owner != null)){
+
+
+closure-2
+Closure21570avaj.kcehCepyTpmocsjtpircsavajelgoogmoccrsyggub
+-    ObjectType implicitProto = interfaceType.getImplicitPrototype();
++if((interfaceType.getImplicitPrototype() == null)){
+return;
+}
+
+closure-7
+Closure7613avaj.reterpretnItcartsbAesreveRelbaniahCepytpmocsjtpircsavajelgoogmoccrsyggub
+-        return resultEqualsValue && ctorType.isSubtype(type) ? ctorType : null;
++return ((resultEqualsValue && ctorType.isSubtype(type)))?ctorType:type;
+
+closure-14
+Closure14767avaj.sisylanAwolFlortnoCpmocsjtpircsavajelgoogmoccrsyggub
+-              cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);
++cfa.createEdge(fromNode, Branch.ON_EX, finallyNode);
+
+
+closure-33
+Closure33568avaj.epyTtcejbOepytotorPepytsjonihrtpircsavajelgoogmoccrsyggub
+-      for (String prop : constraintObj.getOwnPropertyNames()) {
++if(hasReferenceName()){
+return;
+}
+
+closure-57
+Closure57197avaj.noitnevnoCgnidoCerusolCpmocsjtpircsavajelgoogmoccrsyggub
+-          if (target != null) {
++if(((target != null) && !target.isQualifiedName())){
+
+
+closure-62
+Closure6297avaj.rettamroFegasseMthgiewthgiLpmocsjtpircsavajelgoogmoccrsyggub
+-      if (excerpt.equals(LINE)
+          && 0 <= charno && charno < sourceExcerpt.length()) {
++if(((excerpt.equals(LINE) && (0 <= charno)) && (charno <= sourceExcerpt.length()))){
+
+closure-63
+Closure6297avaj.rettamroFegasseMthgiewthgiLpmocsjtpircsavajelgoogmoccrsyggub
+-      if (excerpt.equals(LINE)
+          && 0 <= charno && charno < sourceExcerpt.length()) {
++if(((excerpt.equals(LINE) && (0 <= charno)) && (charno <= sourceExcerpt.length()))){
+
+closure-73
+Closure731045avaj.rotareneGedoCpmocsjtpircsavajelgoogmoccrsyggub
+-            if (c > 0x1f && c <= 0x7f) {
++if(((c > 0x1f) && (c < 0x7f))){
+
+closure-86
+Closure862465avaj.litUedoNpmocsjtpircsavajelgoogmoccrsyggub
+-        return true;
++return false;
+
+closure-92
+Closure92789avaj.sevitimirPerusolCssecorPpmocsjtpircsavajelgoogmoccrsyggub
+-          int indexOfDot = namespace.indexOf('.');
++int indexOfDot = namespace.lastIndexOf(".");
+
+
+closure-93
+Closure92789avaj.sevitimirPerusolCssecorPpmocsjtpircsavajelgoogmoccrsyggub
+-          int indexOfDot = namespace.indexOf('.');
++int indexOfDot = namespace.lastIndexOf(".");
+
+
+closure-104
+Closure104291avaj.epyTnoinUepytsjonihrtpircsavajelgoogmoccrsyggub
+-    if (result != null) {
++if(((result != null) && !result.isNoType())){
+
+
+closure-109
+Closure1091908avaj.resraPofnIcoDsJgnisrappmocsjtpircsavajelgoogmoccrsyggub
+-          return parseTypeName(token);
++return parseAndRecordTypeNode(token);
+
+closure-115
+Closure115731avaj.rotcejnInoitcnuFpmocsjtpircsavajelgoogmoccrsyggub
+-            return CanInlineResult.NO;
++
+
+closure-118
+Closure118497avaj.seitreporPetaugibmasiDpmocsjtpircsavajelgoogmoccrsyggub
+-        String name = child.getString();
++if(child.isQuotedString()){
+return;
+}
+
+lang-6
+Lang695avaj.rotalsnarTecneuqeSrahCetalsnarttxet3gnalsnommocehcapagroavajniamcrsyggub
+-                pos += Character.charCount(Character.codePointAt(input, pos));
++pos += Character.charCount(Character.codePointAt(input, pt));
+
+
+lang-26
+Lang26820avaj.tamroFetaDtsaFemit3gnalsnommocehcapagroavajniamcrsyggub
+-        Calendar c = new GregorianCalendar(mTimeZone);
++Calendar c = new GregorianCalendar(mTimeZone, mLocale);
+
+
+lang-29
+Lang29158avaj.tamroFegasseMdednetxEtxetgnalsnommocehcapagroavajcrsyggub
+-    static float toJavaVersionInt(String version) {
++    static int toJavaVersionInt(String version) {
+
+lang-33
+Lang33910avaj.slitUssalC3gnalsnommocehcapagroavajniamcrsyggub
+-            classes[i] = array[i].getClass();
++classes[i] = ((array[i] == null))?null:array[i].getClass();
+
+
+lang-38
+Lang38872avaj.tamroFetaDtsaFemit3gnalsnommocehcapagroavajcrsyggub
+-            calendar = (Calendar) calendar.clone();
++calendar.getTime();
+
+
+lang-39
+Lang393675avaj.slitUgnirtS3gnalsnommocehcapagroavajcrsyggub
+-        for (int i = 0; i < searchList.length; i++) {
++for(int i = 0;(i < i);i++) {
+
+lang-51
+Lang51684avaj.slitUnaelooBgnalsnommocehcapagroavajcrsyggub
+-                char ch = str.charAt(0);
++break;
+
+
+lang-55
+Lang55115avaj.hctaWpotSemitgnalsnommocehcapagroavajcrsyggub
+-        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
++if((this.runningState != STATE_SUSPENDED)){
+
+
+lang-57
+Lang57223avaj.slitUelacoLgnalsnommocehcapagroavajcrsyggub
+-        return cAvailableLocaleSet.contains(locale);
++return availableLocaleSet().contains(locale);
+
+lang-59
+Lang59884avaj.redliuBrtStxetgnalsnommocehcapagroavajcrsyggub
+-                str.getChars(0, strLen, buffer, size);
++str.getChars(0, width, buffer, size);
+
+
+math-5
+Math5305avaj.xelpmoCxelpmoc3htamsnommocehcapagroavajniamcrsyggub
+-            return NaN;
++return INF;
+
+math-27
+Math27597avaj.noitcarFnoitcarf3htamsnommocehcapagroavajniamcrsyggub
+-        return multiply(100).doubleValue();
++return (100 * doubleValue());
+
+math-30
+Math30173avaj.tseTUyentihWnnaMecnerefnitats3htamsnommocehcapagroavajniamcrsyggub
+-        final int n1n2prod = n1 * n2;
++final long n1n2prod = (n1 * n2);
+
+
+math-33
+Math33338avaj.uaelbaTxelpmiSraenilnoitazimitpo3htamsnommocehcapagroavajniamcrsyggub
+-            if (Precision.compareTo(entry, 0d, maxUlps) > 0) {
++if((Precision.compareTo(entry, 0d, epsilon) > 0)){
+
+math-34
+Math34209avaj.noitalupoPtsiLsciteneg3htamsnommocehcapagroavajniamcrsyggub
+-        return chromosomes.iterator();
++return getChromosomes().iterator();
+
+math-41
+Math41520avaj.ecnairaVtnemomevitpircsedtatshtamsnommocehcapagroavajniamcrsyggub
+-                for (int i = 0; i < weights.length; i++) {
++for(int i = begin;(i < (begin + length));i++) {
+
+math-50
+Math50188avaj.revloStnaceSesaBsrevlossisylanahtamsnommocehcapagroavajniamcrsyggub
+-                        x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
++
+
+math-57
+Math57175avaj.reretsulCsulPsulPsnaeMKgniretsulctatshtamsnommocehcapagroavajniamcrsyggub
+-            int sum = 0;
++double sum = 0;
+
+
+math-65
+Math65258avaj.rezimitpOserauqStsaeLtcartsbAlarenegnoitazimitpohtamsnommocehcapagroavajniamcrsyggub
+-            chiSquare += residual * residual / residualsWeights[i];
++chiSquare += ((residual * residual) * residualsWeights[i]);
+
+
+math-70
+Math7072avaj.revloSnoitcesiBsrevlossisylanahtamsnommocehcapagroavajniamcrsyggub
+-        return solve(min, max);
++return solve(f, min, max);
+
+math-75
+Math75303avaj.ycneuqerFtatshtamsnommocehcapagroavajniamcrsyggub
+-        return getCumPct((Comparable<?>) v);
++return getPct((Comparable<?>)v);
+
+math-94
+Math94412avaj.slitUhtaMlituhtamsnommocehcapagroavajcrsyggub
+-        if (u * v == 0) {
++if(((u == 0) || (v == 0))){
+
+
+math-96
+Math96299avaj.xelpmoCxelpmochtamsnommocehcapagroavajcrsyggub
+-        return real;
++return (real + 0);
+
+math-105
+Math105264avaj.noissergeRelpmiSnoissergertatshtamsnommocehcapagroavajcrsyggub
+-        return sumYY - sumXY * sumXY / sumXX;
++return Math.max((sumYY - ((sumXY * sumXY) / sumXX)), 0);
+
+time-4
+Time4464avaj.laitraPemitadojgroavajniamcrsyggub
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++Partial newPartial = new Partial(newTypes, newValues);
+
+
+time-7
+Time7710avaj.rettamroFemiTetaDtamrofemitadojgroavajniamcrsyggub
+-        int defaultYear = chrono.year().get(instantLocal);
++int defaultYear = chrono.weekyear().get(instantLocal);
+
+
+mockito-38
+Mockito3848avaj.looTgnihctaMtnemugrAgnihctamtnemugranoitacifirevlanretniotikcomgrocrsyggub
+-        return StringDescription.toString(m).equals(arg.toString());
++return StringDescription.toString(m).equals(((arg == null))?"null":arg.toString());
+
+mockito-29
+Mockito33568avaj.epyTtcejbOepytotorPepytsjonihrtpircsavajelgoogmoccrsyggub
+-        description.appendText(wanted.toString());
++        if(wanted != null) {
+
+math-98
+Math33568avaj.epyTtcejbOepytotorPepytsjonihrtpircsavajelgoogmoccrsyggub
+-        final BigDecimal[] out = new BigDecimal[v.length];
++        final BigDecimal[] out=new BigDecimal[nRows];
+
+closure-21
+Closure21118avaj.stceffEediSkcehCpmocsjtpircsavajelgoogmoccrsyggub
+-        for (Node an : parent.getAncestors()) {
++        for (Node an : parent.getAncestors()) {if(0!=1)break;
+
