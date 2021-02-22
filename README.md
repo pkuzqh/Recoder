@@ -1,7 +1,7 @@
 # Recoder
 A Pytorch Implementation of "A Syntax-Guided Edits Decoder for Neural Program Repair"
 
-![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/overviewmodel.pdf)
+![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/overviewmodel.png)
 
 ## Dependency
 * python 3.7
@@ -23,5 +23,9 @@ python3 testDefects4j.py bugid
 ```python
 python3 repair.py bugid
 ```
+## Two Examples of Edits
+![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png)
+![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png)
+
 ## Online Demo
 A demo to show our model.
