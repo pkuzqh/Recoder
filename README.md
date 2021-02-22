@@ -1,6 +1,6 @@
 # Recoder
 A Pytorch Implementation of "A Syntax-Guided Edits Decoder for Neural Program Repair"
-![avatar](picture/overviewmodel.pdf)
+![avatar](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/overviewmodel.pdf)
 ## Dependency
 * python 3.7
 * Pytorch 1.3
