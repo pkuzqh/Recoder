@@ -24,7 +24,7 @@ python3 testDefects4j.py bugid
 python3 repair.py bugid
 ```
 ## Two Examples of Edits
-<center class="half">
+<center class="third">
     <img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="200"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="200"/>
 </center>
 
