@@ -24,9 +24,9 @@ python3 testDefects4j.py bugid
 python3 repair.py bugid
 ```
 ## Two Examples of Edits
-<figure>
-<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="300"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="300"/> 
-</figure>
+
+<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" width="420"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" width="420"/> 
+
 ## Gnerated Patches
 The generated patches are in the floder [Result/](https://github.com/FSE2021anonymous/Recoder/blob/master/Result).
 
