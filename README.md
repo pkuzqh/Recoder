@@ -25,7 +25,7 @@ python3 repair.py bugid
 ```
 ## Two Examples of Edits
 
-<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" metaname="viewport" content="width=device-width, initial-scale=0.5"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" metaname="viewport" content="width=device-width, initial-scale=0.5"/> 
+<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" metaname="viewport" content="width=device-width/2, initial-scale=1"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" metaname="viewport" content="width=device-width/2, initial-scale=1"/> 
 
 ## Gnerated Patches
 The generated patches are in the floder [Result/](https://github.com/FSE2021anonymous/Recoder/blob/master/Result).
