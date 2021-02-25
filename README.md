@@ -9,7 +9,7 @@ A Pytorch Implementation of "A Syntax-Guided Edits Decoder for Neural Program Re
 * Defects4J
 * Java 8
 
-## Raw Data
+## Training Set
 The data will be published after the paper is accepted.
 ## Train a new model
 ```python
@@ -28,7 +28,7 @@ python3 repair.py bugid
 <img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" metaname="viewport" width="400"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" metaname="viewport" width="400"/> 
 
 ## Gnerated Patches
-The generated patches are in the floder [Result/](https://github.com/FSE2021anonymous/Recoder/blob/master/Result).
+The generated patches are in the folder [Result/](https://github.com/FSE2021anonymous/Recoder/blob/master/Result).
 
 ## Online Demo
 [A demo to show Recoder.](http://123.57.129.161:8081/)
