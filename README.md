@@ -1,17 +1,17 @@
 # Recoder
-A Pytorch Implementation of "A Syntax-Guided Edits Decoder for Neural Program Repair"
+A PyTorch Implementation of "A Syntax-Guided Edits Decoder for Neural Program Repair"
 
 ![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/overviewmodel.png.Jpeg)
 
 ## Dependency
-* python 3.7
-* Pytorch 1.3
+* Python 3.7
+* PyTorch 1.3
 * Defects4J
 * Java 8
 
 ## Training Set
 The data will be published after the paper is accepted.
-## Train a new model
+## Train a New Model
 ```python
 python3 run.py train
 ```
