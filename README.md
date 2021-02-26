@@ -1,7 +1,7 @@
 # Recoder
 A Pytorch Implementation of "A Syntax-Guided Edits Decoder for Neural Program Repair"
 
-![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/overviewmodel.png)
+![image](https://github.com/FSE2021anonymous/Recoder/blob/master/picture/overviewmodel.png.Jpeg)
 
 ## Dependency
 * python 3.7
