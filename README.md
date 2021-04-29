@@ -58,7 +58,7 @@ The results are in folder ```patches/``` in json.
 
 ## Two Examples of Edits
 
-< img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" metaname="viewport" width="400"/>< img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" metaname="viewport" width="400"/> 
+<img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Insert.png" metaname="viewport" width="400"/><img src="https://github.com/FSE2021anonymous/Recoder/blob/master/picture/Modify.png" metaname="viewport" width="400"/> 
 
 ## Gnerated Patches
 The generated patches are in the folder [Result/](https://github.com/FSE2021anonymous/Recoder/blob/master/Result).
