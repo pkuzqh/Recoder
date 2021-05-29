@@ -29,7 +29,6 @@ We conduct experiments to evaluate Recoder on 395 bugs from Defects4J v1.2 and 4
 ```
 
 ## To Run Recoder via Docker
-We provider two versions of docker files to run Recoder.
 
 * To run the docker, you need first install docker in your machine.
     ```
@@ -37,7 +36,7 @@ We provider two versions of docker files to run Recoder.
     ```
 * To use GPUs, you need to install CUDA v10.2 in your machine.
     1. Download the corresponding CUDA file in [Nvidia](https://developer.nvidia.com/cuda-toolkit-archive).
-    2. install CUDA
+    2. Install CUDA
     ```
     bash cuda.sh(name of the CUDA file)
     ```
@@ -53,15 +52,17 @@ We provider two versions of docker files to run Recoder.
     sudo apt-get install nvidia-container-runtime
     sudo systemctl restart docker
     ```
-* To use Recoder to repair defects with pre-trained model
-    ```
-    sudo docker pull zqh111/recoder:interface 
-    ```
-* To train Recoder
-    ```
-    sudo docker pull zqh111/recoder:training 
-    ```
-* The start the docker
+* Pull the docker
+    We provider two  docker files to run Recoder.
+    * To use Recoder to repair defects with pre-trained model
+        ```
+        sudo docker pull zqh111/recoder:interface 
+        ```
+    * To train Recoder
+        ```
+        sudo docker pull zqh111/recoder:training 
+        ```
+* Start the docker
     ```
     docker run -it --gpus all zqh111/recoder:interface /bin/bash
     cd /root/Repair/
