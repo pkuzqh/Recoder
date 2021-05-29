@@ -108,7 +108,7 @@ python3 totalrepair.py
  you need to change the corresponding bug IDs in this file. 
 ## Two Examples of Edits
 
-<img src="https://github.com/pkuzqh/Recoder/tree/master/picture/Insert.png" metaname="viewport" width="400"/><img src="https://github.com/pkuzqh/Recoder/tree/master/picture/Modify.png" metaname="viewport" width="400"/> 
+<img src="https://github.com/pkuzqh/Recoder/blob/master/picture/Insert.png" metaname="viewport" width="400"/><img src="https://github.com/pkuzqh/Recoder/blob/master/picture/Modify.png" metaname="viewport" width="400"/> 
 
 ## Gnerated Patches
 The generated patches are in the folder [Result/](https://github.com/FSE2021anonymous/Recoder/blob/master/Result).
