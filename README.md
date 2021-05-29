@@ -64,7 +64,7 @@ We conduct experiments to evaluate Recoder on 395 bugs from Defects4J v1.2 and 4
         ```
 * Start the docker
     ```
-    docker run -it --gpus all zqh111/recoder:interface /bin/bash
+    docker run -it --gpus all --shm_size="1g" zqh111/recoder:interface /bin/bash
     cd /root/Repair/
     ```
 ## Training Set
