@@ -40,7 +40,7 @@ We conduct experiments to evaluate Recoder on 395 bugs from Defects4J v1.2 and 4
     ```
     bash cuda.sh(name of the CUDA file)
     ```
-* To use GPUs in docker, you also need to install nvidia-docker.(We use Ubuntu as example, more details can be found in [nvidia-docker](https://github.com/NVIDIA/nvidia-docker))
+* To use GPUs in docker, you also need to install nvidia-docker.(We take Ubuntu as example, more details can be found in [nvidia-docker](https://github.com/NVIDIA/nvidia-docker))
     ```
     # Add the package repositories
     distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
