@@ -72,7 +72,7 @@ The data is included in the docker. The raw data will be published later.
 
 ## Train a New Model
 ```python
-python3 run.py train
+CUDA_VISIBLE_DEVICES=0,1 python3 run.py train
 ```
 The saved model is ```checkpointSearch/best_model.ckpt```.
 
@@ -80,14 +80,14 @@ After our model was trained, we can
 
 ## Generate Patches for Defects4J v1.2 with Ochiai by
 ```python
-python3 testDefects4j.py bugid
+CUDA_VISIBLE_DEVICES=0 python3 testDefects4j.py bugid
 ```
 
 The generated patches are in folder ```patch/``` in json.
 
 ## Generate Patches for Defects4J v2.0 by
 ```python
-python3 testDefects4jv21.py bugid
+CUDA_VISIBLE_DEVICES=0 python3 testDefects4jv21.py bugid
 ```
 
 The generated patches are in folder ```patch/``` in json.
