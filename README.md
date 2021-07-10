@@ -80,14 +80,14 @@ After our model was trained, we can
 
 ## Generate Patches for Defects4J v1.2 with Ochiai by
 ```python
-CUDA_VISIBLE_DEVICES=0 python3 testDefects4j.py bugid
+CUDA_VISIBLE_DEVICES=0 python3 testDefect4j.py bugid
 ```
 
 The generated patches are in folder ```patch/``` in json.
 
 ## Generate Patches for Defects4J v2.0 by
 ```python
-CUDA_VISIBLE_DEVICES=0 python3 testDefects4jv21.py bugid
+CUDA_VISIBLE_DEVICES=0 python3 testDefect4jv21.py bugid
 ```
 
 The generated patches are in folder ```patch/``` in json.
