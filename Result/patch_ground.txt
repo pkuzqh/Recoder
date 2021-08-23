@@ -1,0 +1,108 @@
+chart-4
+Chart44493avaj.tolPYXtolptrahceerfjgroecruosyggub
+-                    Collection c = r.getAnnotations();
++if((r != null)){
+
+chart-7
+Chart7300avaj.seulaVdoirePemiTemitatadeerfjgroecruosyggub
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
+                .getTime();
++long s = getDataItem(this.maxStartIndex).getPeriod().getStart().getTime();
+
+chart-12
+Chart12145avaj.tolPeiPelpitluMtolptrahceerfjgroecruosyggub
+-        this.dataset = dataset;
++setDataset(dataset);
+
+closure-10
+Closure101417avaj.litUedoNpmocsjtpircsavajelgoogmoccrsyggub
+-      return allResultsMatch(n, MAY_BE_STRING_PREDICATE);
++return anyResultsMatch(n, MAY_BE_STRING_PREDICATE);
+
+closure-11
+Closure111314avaj.kcehCepyTpmocsjtpircsavajelgoogmoccrsyggub
+-    } else if (n.getJSType() != null && parent.isAssign()) {
++
+
+closure-18
+Closure181288avaj.relipmoCpmocsjtpircsavajelgoogmoccrsyggub
+-      if (options.dependencyOptions.needsManagement() && options.closurePass) {
++if(options.dependencyOptions.needsManagement()){
+
+closure-31
+Closure311284avaj.relipmoCpmocsjtpircsavajelgoogmoccrsyggub
+-      if (options.dependencyOptions.needsManagement() &&
+          !options.skipAllPasses &&
+          options.closurePass) {
++if(options.dependencyOptions.needsManagement()){
+
+closure-40
+Closure40452avaj.slitUrebmuNhtam3gnalsnommocehcapagroavajniamcrsyggub
+-        JsName name = getName(ns.name, false);
++JsName name = getName(ns.name, true);
+
+closure-70
+Closure701744avaj.rotaerCepocSdepyTpmocsjtpircsavajelgoogmoccrsyggub
+-              defineSlot(astParameter, functionNode,
+                  jsDocParameter.getJSType(), true);
++defineSlot(astParameter, functionNode, jsDocParameter.getJSType(), false);
+
+closure-125
+Closure1251661avaj.kcehCepyTpmocsjtpircsavajelgoogmoccrsyggub
+-      if (fnType != null) {
++if(((fnType != null) && fnType.hasInstanceType())){
+
+closure-126
+Closure126141avaj.stnioPtixEeziminiMpmocsjtpircsavajelgoogmoccrsyggub
+-      if (NodeUtil.hasFinally(n)) {
++if(!NodeUtil.hasFinally(n)){
+
+lang-7
+Lang7452avaj.slitUrebmuNhtam3gnalsnommocehcapagroavajniamcrsyggub
+-        if (str.startsWith("--")) {
++if(str.startsWith("null")){
+
+lang-43
+Lang43422avaj.tamroFegasseMdednetxEtxetgnalsnommocehcapagroavajcrsyggub
+-            return appendTo == null ? null : appendTo.append(QUOTE);
++next(pos);
+
+lang-63
+Lang631744avaj.rotaerCepocSdepyTpmocsjtpircsavajelgoogmoccrsyggub
+-        if (endValue < startValue) {
++if(endValue < endValue) {
+ 
+
+math-58
+Math58121avaj.rettiFnaissuaGgnittifnoitazimitpohtamsnommocehcapagroavajniamcrsyggub
+-        return fit(new Gaussian.Parametric(), guess);
++return fit(guess);
+
+math-82
+Math8282avaj.revloSxelpmiSraenilnoitazimitpohtamsnommocehcapagroavajniamcrsyggub
+-            if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
++if((MathUtils.compareTo(entry, 0, epsilon) > 0)){
+
+math-85
+Math85198avaj.slitUrevloSlaeRetairavinUsrevlossisylanahtamsnommocehcapagroavajcrsyggub
+-        if (fa * fb >= 0.0 ) {
++if(((fa * fb) > 0.0)){
+
+time-19
+Time19900avaj.enoZemiTetaDemitadojgroavajniamcrsyggub
+-        } else if (offsetLocal > 0) {
++}else if((offsetLocal >= 0)){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
