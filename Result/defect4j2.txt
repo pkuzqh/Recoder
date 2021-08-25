@@ -1,0 +1,109 @@
+cli-53
+Cli536avaj.litUilcsnommocehcapagroavajcrsyggub
+-        if (str.startsWith("--"))
++if((str == null)){
+return null;}
+
+cli-28
+Cli28290avaj.resraPilcsnommocehcapagroavajcrsyggub
+-                    break;
++continue;
+
+cli-32
+Cli32940avaj.rettamroFpleHilcsnommocehcapagroavajniamcrsyggub
+-            ++pos;
++return pos;
+
+codec-7
+Codec7670avaj.46esaByranibcedocsnommocehcapagroavajcrsyggub
+-        return StringUtils.newStringUtf8(encodeBase64(binaryData, true));
++return StringUtils.newStringUtf8(encodeBase64(binaryData, false));
+
+codec-17
+Codec17339avaj.slitUgnirtSyranibcedocsnommocehcapagroavajniamcrsyggub
+-        return new String(bytes, Charsets.ISO_8859_1);
++if((bytes == null)){
+return null;}
+
+compress-19
+Compress19259avaj.dleiFartxEnoitamrofnIdednetxE46piZpizsrevihcrasserpmocsnommocehcapagroavajniamcrsyggub
+-            if (rawCentralDirectoryData.length != expectedLength) {
++if((rawCentralDirectoryData.length < expectedLength)){
+
+compress-27
+Compress27133avaj.slitUraTratsrevihcrasserpmocsnommocehcapagroavajniamcrsyggub
+-        if (start == end) {
++if((trailer == end)){
+
+compress-31
+Compress31136avaj.slitUraTratsrevihcrasserpmocsnommocehcapagroavajniamcrsyggub
+-                break;
++
+
+csv-4
+Csv4288avaj.resraPVSCvscsnommocehcapagroavajniamcrsyggub
+-        return new LinkedHashMap<String, Integer>(this.headerMap);
++if((this.headerMap == null)){
+return null;}
+
+csv-5
+Csv5325avaj.retnirPVSCvscsnommocehcapagroavajniamcrsyggub
+-            out.append(recordSeparator);
++if((recordSeparator == null)){
+return;
+}
+
+csv-9
+Csv9180avaj.droceRVSCvscsnommocehcapagroavajniamcrsyggub
+-        for (final Entry<String, Integer> entry : mapping.entrySet()) {
++if((mapping == null)){
+return map;}
+
+csv-11
+Csv11383avaj.resraPVSCvscsnommocehcapagroavajniamcrsyggub
+-                    final boolean containsHeader = hdrMap.containsKey(header);
++if((header != null)){
+
+jsoup-24
+Jsoup24558avaj.etatSresinekoTresrappuosjgroavajniamcrsyggub
+-                r.advance();
++
+
+jsoup-26
+Jsoup2643avaj.renaelCytefaspuosjgroavajniamcrsyggub
+-            copySafeNodes(dirtyDocument.body(), clean.body());
++copySafeNodes(dirtyDocument, clean.body());
+
+jsoup-40
+Jsoup4022avaj.epyTtnemucoDsedonpuosjgroavajniamcrsyggub
+-        Validate.notEmpty(name);
++
+
+jsoup-55
+Jsoup55883avaj.etatSresinekoTresrappuosjgroavajniamcrsyggub
+-                    t.transition(BeforeAttributeName);
++r.unconsume();
+
+jsoup-61
+Jsoup611092avaj.tnemelEsedonpuosjgroavajniamcrsyggub
+-        final String classAttr = attributes.get("class");
++final String classAttr = attributes.getIgnoreCase("class");
+
+jsoup-64
+Jsoup64122avaj.etatSredliuBeerTlmtHresrappuosjgroavajniamcrsyggub
+-                        handleRawtext(start, tb);
++handleRcData(start, tb);
+
+jsoup-68
+Jsoup68470avaj.redliuBeerTlmtHresrappuosjgroavajniamcrsyggub
+-            bottom = MaxScopeSearchDepth;
++bottom = bottom;
+
+
+
+
+
+
+
+
+
