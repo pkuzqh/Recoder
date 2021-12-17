@@ -74,7 +74,8 @@ We conduct experiments to evaluate Recoder on 395 bugs from Defects4J v1.2 and 4
     cd /root/Repair/
     ```
 ## Training Set
-The data is included in the docker. The raw data will be published later.
+The data is included in the docker. 
+The raw data https://drive.google.com/drive/folders/1ECNX98qj9FMdRT2MXOUY6aQ6-sNT0b_a?usp=sharing .
 
 ## Train a New Model
 ```python
