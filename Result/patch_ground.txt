@@ -3,6 +3,7 @@ Chart44493avaj.tolPYXtolptrahceerfjgroecruosyggub
 -                    Collection c = r.getAnnotations();
 +if((r != null)){
 
+//Justified as plausible patch
 chart-7
 Chart7300avaj.seulaVdoirePemiTemitatadeerfjgroecruosyggub
 -            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
@@ -52,6 +53,7 @@ Closure1251661avaj.kcehCepyTpmocsjtpircsavajelgoogmoccrsyggub
 -      if (fnType != null) {
 +if(((fnType != null) && fnType.hasInstanceType())){
 
+//Semantically Equal: Remove the correspnding lines.
 closure-126
 Closure126141avaj.stnioPtixEeziminiMpmocsjtpircsavajelgoogmoccrsyggub
 -      if (NodeUtil.hasFinally(n)) {
@@ -67,6 +69,7 @@ Lang43422avaj.tamroFegasseMdednetxEtxetgnalsnommocehcapagroavajcrsyggub
 -            return appendTo == null ? null : appendTo.append(QUOTE);
 +next(pos);
 
+//Justified as plausible patch
 lang-63
 Lang631744avaj.rotaerCepocSdepyTpmocsjtpircsavajelgoogmoccrsyggub
 -        if (endValue < startValue) {
