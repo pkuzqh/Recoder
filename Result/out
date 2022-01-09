@@ -54,6 +54,7 @@ Closure21570avaj.kcehCepyTpmocsjtpircsavajelgoogmoccrsyggub
 return;
 }
 
+//Justified as Plusable Pactch
 closure-7
 Closure7613avaj.reterpretnItcartsbAesreveRelbaniahCepytpmocsjtpircsavajelgoogmoccrsyggub
 -        return resultEqualsValue && ctorType.isSubtype(type) ? ctorType : null;
@@ -64,7 +65,7 @@ Closure14767avaj.sisylanAwolFlortnoCpmocsjtpircsavajelgoogmoccrsyggub
 -              cfa.createEdge(fromNode, Branch.UNCOND, finallyNode);
 +cfa.createEdge(fromNode, Branch.ON_EX, finallyNode);
 
-
+//Semantically Equal: Remove the corresponding snippets.
 closure-21
 Closure21118avaj.stceffEediSkcehCpmocsjtpircsavajelgoogmoccrsyggub
 -        for (Node an : parent.getAncestors()) {
@@ -77,6 +78,7 @@ Closure33568avaj.epyTtcejbOepytotorPepytsjonihrtpircsavajelgoogmoccrsyggub
 return;
 }
 
+//Semantically Equal: Invoke the corresponding method, "getLeastSupertype", of super class.
 closure-46
 Closure46145avaj.epyTdroceRepytsjonihrtpircsavajelgoogmoccrsyggub
 -    RecordTypeBuilder builder = new RecordTypeBuilder(registry);
@@ -127,12 +129,13 @@ Closure104291avaj.epyTnoinUepytsjonihrtpircsavajelgoogmoccrsyggub
 -    if (result != null) {
 +if(((result != null) && !result.isNoType())){
 
-
+//Justified as Plusable Pactch
 closure-109
 Closure1091908avaj.resraPofnIcoDsJgnisrappmocsjtpircsavajelgoogmoccrsyggub
 -          return parseTypeName(token);
 +return parseAndRecordTypeNode(token);
 
+//Semantically Equal: Don't return CanInlineResult.NO as the human patch.
 closure-115
 Closure115731avaj.rotcejnInoitcnuFpmocsjtpircsavajelgoogmoccrsyggub
 -            return CanInlineResult.NO;
@@ -179,7 +182,7 @@ Lang51684avaj.slitUnaelooBgnalsnommocehcapagroavajcrsyggub
 -                char ch = str.charAt(0);
 +break;
 
-
+//Semantically Equal: runningState only can be STATE_RUNNING or STATE_SUSPENDED here. Thus "runningState == STATE_RUNNING" is equal to "runningState != STATE_STATE_SUSPENDED"
 lang-55
 Lang55115avaj.hctaWpotSemitgnalsnommocehcapagroavajcrsyggub
 -        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
@@ -260,7 +263,7 @@ Math94412avaj.slitUhtaMlituhtamsnommocehcapagroavajcrsyggub
 -        if (u * v == 0) {
 +if(((u == 0) || (v == 0))){
 
-
+//Semantically Equal: The original code only works incorrectly when the variable "real" is negative zero "-0", the patch will convert the variable "real" form "-0" into "0".
 math-96
 Math96299avaj.xelpmoCxelpmochtamsnommocehcapagroavajcrsyggub
 -        return real;
@@ -280,7 +283,7 @@ Time4464avaj.laitraPemitadojgroavajniamcrsyggub
 time-7
 Time7710avaj.rettamroFemiTetaDtamrofemitadojgroavajniamcrsyggub
 -        int defaultYear = chrono.year().get(instantLocal);
-+int defaultYear = chrono.weekyear().get(instantLocal);
++int defaultYear = chrono.year().get(instantMillis);
 
 
 mockito-38
