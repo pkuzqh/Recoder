@@ -63,12 +63,12 @@ We conduct experiments to evaluate Recoder on 395 bugs from Defects4J v1.2 and 4
         sudo docker pull zqh111/recoder:training 
         ```
 * Start the docker
-    *Inference  
+    * Inference  
     ```
     docker run -it --gpus all --shm-size="1g" zqh111/recoder:interface /bin/bash
     cd /root/Repair/
     ```
-    *Training
+    * Training
     ```
     docker run -it --gpus all --shm-size="1g" zqh111/recoder:training /bin/bash
     cd /root/Repair/
