@@ -109,6 +109,12 @@ python3 repair.py bugid
 
 The results are in folder ```patches/``` in json.
 
+## Generate Patches for Quixbugs
+Replace 'testDefect4j.py' with 'testQuixbug.py' and modify the corresponding file path, then run 
+```python
+python3 testQuixbug.py
+```
+
 ## Validate Patches Parallelly
 ```python
 python3 totalrepair.py
