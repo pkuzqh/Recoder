@@ -1,4 +1,4 @@
-cli-53
+cli-5
 Cli536avaj.litUilcsnommocehcapagroavajcrsyggub
 -        if (str.startsWith("--"))
 +if((str == null)){
