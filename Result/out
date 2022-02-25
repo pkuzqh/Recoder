@@ -184,8 +184,8 @@ Lang51684avaj.slitUnaelooBgnalsnommocehcapagroavajcrsyggub
 
 //Semantically Equal: runningState only can be STATE_RUNNING or STATE_SUSPENDED here. Thus "runningState == STATE_RUNNING" is equal to "runningState != STATE_STATE_SUSPENDED"
 lang-55
-Lang55115avaj.hctaWpotSemitgnalsnommocehcapagroavajcrsyggub
--        if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
+Lang55118avaj.hctaWpotSemitgnalsnommocehcapagroavajcrsyggub
+-        stopTime = System.currentTimeMillis();
 +if((this.runningState != STATE_SUSPENDED)){
 
 
