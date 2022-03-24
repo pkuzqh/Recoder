@@ -59,6 +59,7 @@ Closure126141avaj.stnioPtixEeziminiMpmocsjtpircsavajelgoogmoccrsyggub
 -      if (NodeUtil.hasFinally(n)) {
 +if(!NodeUtil.hasFinally(n)){
 
+//Justified as plausible patch
 lang-7
 Lang7452avaj.slitUrebmuNhtam3gnalsnommocehcapagroavajniamcrsyggub
 -        if (str.startsWith("--")) {
