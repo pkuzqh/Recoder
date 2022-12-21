@@ -438,16 +438,19 @@ for p in ans:
     if mode == 1:
         aftercode = oldcode + aftercode
     lines = aftercode.splitlines()
-    if 'throw' in lines[0] and mode == 1:
-        for s, l in enumerate(lines):
-            if 'throw' in l or l.strip() == "}":
-                precode += l + "\n"
-            else:
-                break
-        aftercode = "\n".join(lines[s:])
-    if lines[0].strip() == '}' and mode == 1:
-        precode += lines[0] + "\n"
-        aftercode = "\n".join(lines[1:])
+    try:
+      if 'throw' in lines[0] and mode == 1:
+          for s, l in enumerate(lines):
+              if 'throw' in l or l.strip() == "}":
+                  precode += l + "\n"
+              else:
+                  break
+          aftercode = "\n".join(lines[s:])
+      if lines[0].strip() == '}' and mode == 1:
+          precode += lines[0] + "\n"
+          aftercode = "\n".join(lines[1:])
+    except:
+      pass
 
     try:
         code = stringfyRoot(root, False, mode)
